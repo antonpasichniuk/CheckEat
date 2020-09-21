@@ -1,0 +1,47 @@
+.contact_us{
+	background-color: #fadaa4;
+	margin: 50px;
+	border: 3px solid #70482e;
+	text-align: center;
+}
+
+.info{
+	font-size: 30px;
+	margin: 50px;
+	text-align: left;
+}
+
+label{
+	display: block;
+	margin: 20px;
+	font-size: 25px;
+	color: #492d1c;
+}
+
+input, select, .text_area{
+	font-family: 'Font';
+	font-size: 25px;
+	border-radius: 10px;
+	color: #492d1c;
+}
+
+input{
+	width: 200px;
+}
+
+.text_area{
+	display: block;
+	resize: none;
+	width: 40%;
+	height: 300px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.submit, .reset{
+	background-color: #dbb97c;
+	border: 3px solid #70482e;
+	padding: 10px;
+	margin: 10px 30px;
+}

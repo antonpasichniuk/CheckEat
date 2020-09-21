@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CheckEat</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/contactUs.css">
+</head>
+<body>
+	<header>
+		<img class="logo" src="img/logo2.png" width="400px"></img>
+		<nav class="menu_bar">
+			<div><a href="checkeat.html">Home</a></div> 
+			<div><a href="contact.html">Contact us</a></div> 
+			<div><a href="about.html">About</a></div> 
+		</nav>
+	</header>
+	<section>
+		<form class="contact_us">
+			<div class="info">If you have got any issues with a site or you are ready to be our partner, please contact us there in form:</div>
+
+			<label class="name">
+				First name:
+				<input class="name_input" type="text" placeholder="Ivan" autofocus required>
+			</label>
+			<label class="surname">
+				Second name:
+				<input class="surname_input" type="text" placeholder="Ivaniuk" required>
+			</label>
+			<label class="company">
+				Name of company:
+				<input class="company_input" type="text" required>
+			</label>
+			<label class="phone">
+				Phone:
+				<select class="phone_countrie">
+					<option value="+380">+380</option>
+					<option value="+7">+7</option>
+					<option value="+48">+48</option>
+					<option value="+40">+40</option>
+					<option value="+381">+381</option>
+					<option value="+386">+386</option>
+				</select>
+				<input class="phone_input" type="text" maxlength="9" pattern="[0-9]{9}" placeholder="123456789" required>
+			</label>
+			<label>Your wishes:</label>
+			<textarea class="text_area" rows="4" cols="50" wrap="soft">
+			</textarea>
+			<input class="submit" type="submit" value="Submit">
+			<input class="reset" type="reset" value="Reset">
+		</form>
+	</section>
+</body>
+</html>
+

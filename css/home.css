@@ -1,0 +1,192 @@
+.search{
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.search_area{
+ 	font-family: 'Govno';
+ 	font-size: 20px;
+ 	color: #543823;
+ 	padding: 8px 16px;
+ 	text-align: left;
+ 	width: 200px;
+}
+
+ .search_area:first-letter{
+ 	text-transform: uppercase;
+ }
+
+.search_button{
+  margin: 2px 0;
+  border: solid 3px #70482e;
+  padding: 7px 14px;
+  color: #543823;
+  background-color: #dbb97c;
+  font-family: 'Govno';
+  font-size: 20px;
+}
+
+
+.main_area{
+	width: 95%;
+	margin: 1% auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+
+.area{
+	background-color: #fadaa4;
+	margin: 1% 1%;
+	border: 3px solid #70482e;
+}
+
+.name_of_area{
+	margin-top: 0;
+	background-color: #dbb97c;
+	padding-left: 10%;
+	font-size: 30px;
+	border-bottom: 3px solid #70482e;
+	color: #492d1c;
+}
+
+.category{
+	flex: 1;
+	height: 1%;
+}
+
+.categories{
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
+}
+
+.check_area{
+	font-size: 25px;
+	padding-left: 1.2em;
+}
+
+.check{
+	position: absolute;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.check_box{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-left: -1.2em;
+	margin-top: 0.1em;
+
+	border: 2px solid #70482E;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.check:checked + .check_box{
+	background: url('../img/check.svg') no-repeat;
+	background-size: 19px 19px;
+	background-color: #DBB97C;
+
+	transition: background .2s linear;
+}
+
+.check:focus + .check_box{
+	border-color: green;
+}
+
+.products_area{
+	flex: 3;
+}
+
+
+
+
+
+
+
+
+.products{
+	/*1*/
+	width: 85%;
+	margin: 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+/*-------------------------------*/
+	/*2*/
+/*	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;*/
+/*------------------------------*/
+}
+
+.product{
+	/*1*/
+	flex-basis: 200px;
+	margin: 1% auto;
+	
+/*------------------------------*/
+	/*2*/
+/*	flex:1 1 calc(33.33% - 30px);
+	margin:5px;
+	box-sizing:border-box;
+	min-width:170px;*/
+/*-----------------------------*/
+
+	background-color: #fff7e0;
+	border: 3px solid #70482e;
+	font-size: 25px;
+}
+
+.prod_text{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.prod_img{
+	width: 80%;
+	display: block;
+	margin: 5% auto;
+
+	border: 3px solid #70482e;
+}
+
+.name{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #EC5A50;
+}
+
+.price{
+	color: green;
+	font-size: 30px;
+	background-color: 
+}
+
+.prod_err{
+	font-size: 50px;
+	margin-top: 6%;
+	color: #492d1c;
+}
+
+
+@media screen and (max-width: 1100px){
+
+}
+
+@media screen and (max-width: 800px){
+	.main_area{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 550px){
+
+}
